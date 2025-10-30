@@ -289,9 +289,9 @@
       }
 
       // Cambia este ENDPOINT por tu ruta en Python (Flask/FastAPI) que llame a Gemini
-     const ENDPOINT = "http://127.0.0.1:5001/gemini-chat";
-      const HEALTH = "http://127.0.0.1:5001/status"; // ¡CAMBIADO A /status!
-      const RESET_ENDPOINT = "http://127.0.0.1:5001/gemini-reset"; // <--- ¡AÑADE ESTA LÍNEA!
+     const ENDPOINT = "https://mecanica-ia-chat.onrender.com";
+      const HEALTH = "https://mecanica-ia-chat.onrender.com/health"; // ¡CAMBIADO A /status!
+      const RESET_ENDPOINT = "https://mecanica-ia-chat.onrender.com/gemini-reset"; // <--- ¡AÑADE ESTA LÍNEA!
 
       // Diagnóstico: comprobar backend al cargar
       fetch(HEALTH)
